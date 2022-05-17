@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap");
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Amiri', Helvetica;
+  background-color: #000000;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #DCAF85;
+}
+
+.nav-container {
+  background: #000000;
+}
+
+.nav-container .contact-btn {
+  border: 3px solid #DCAF85;
+  background-color: #000000;
+  color: #DCAF85;
+  font-size: 25px;
+  padding: 10px 21px;
+  margin-top: -10px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+header {
+  z-index: 99;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2em;
+  margin-left: 8em;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 8em;
+}
+
+header nav ul a {
+  padding: 0 1.1em;
+  font-size: 1.8em;
+}
+
+.img-div {
+  position: relative;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  margin-top: -11em;
+}
+
+.img-div .bg-birdPlane-img {
+  position: relative;
+  width: 100%;
+}
+
+.img-div .scroll-img {
+  position: absolute;
+  bottom: 32%;
+  left: 46%;
+  -webkit-animation: mover 0.5s infinite  alternate;
+  animation: mover 0.5s infinite  alternate;
+}
+
+@-webkit-keyframes mover {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-17px);
+            transform: translateY(-17px);
+  }
+}
+
+@keyframes mover {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-17px);
+            transform: translateY(-17px);
+  }
+}
+
+.about {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: -10em;
+}
+
+.about h1 {
+  color: #DCAF85;
+  font-size: 8em;
+}
+
+.about .about-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0em 10em;
+  margin: -5em 2em;
+}
+
+.about .about-content p {
+  margin-left: 3%;
+  color: #DCAF85;
+  font-size: 1.8em;
+}
+
+.about .about-content .photo {
+  position: relative;
+}
+
+.about .about-content .photo .jeff_krete_photo {
+  margin-right: 3%;
+  padding: 0.6em;
+  border: solid 3px #DCAF85;
+}
+
+.gallery {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 15em;
+}
+
+.gallery .galleryText {
+  color: #DCAF85;
+  font-size: 8em;
+}
+
+.gallery .gallery-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.gallery .gallery-content img {
+  margin-top: -5em;
+  margin-right: 2em;
+  padding: 0.6em;
+  border: solid 3px #DCAF85;
+  height: auto;
+}
+
+.gallery .buttonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.gallery .buttonContainer a {
+  padding: 1.5em;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.gallery .buttonContainer a :hover {
+  text-decoration: underline;
+  color: #DCAF85;
+}
+
+.airplanes {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.airplanes h1 {
+  color: #DCAF85;
+  font-size: 8em;
+}
+
+.contact {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.contact h1 {
+  color: #DCAF85;
+  font-size: 8em;
+}
+
+.footer-container {
+  background: #000000;
+  border: 3px #DCAF85;
+  border-style: solid none;
+}
+
+.footer-container .contact-btn-footer {
+  border: 3px solid #DCAF85;
+  background-color: #000000;
+  color: #DCAF85;
+  font-size: 25px;
+  padding: 10px 21px;
+  margin-top: -10px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+footer {
+  z-index: 98;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2em;
+  margin-left: 8em;
+}
+
+footer nav {
+  float: right;
+}
+
+footer nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 8em;
+}
+
+footer nav ul a {
+  padding: 0 1.1em;
+  font-size: 1.8em;
+}
+
+.copyright-wrapper {
+  display: block;
+  text-align: center;
+}
+
+.copyright-wrapper p {
+  color: #745F4C;
+  padding-bottom: 0.5em;
+}
+/*# sourceMappingURL=main.css.map */
